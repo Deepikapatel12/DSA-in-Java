@@ -1,3 +1,4 @@
+
 public class Node{
 	private int data;
 	private Node next;
@@ -21,5 +22,8 @@ public class Node{
 	}
 	public Node getNext(){
 		return next;
+	}
+	public String toString(){
+		return " " + data + " --->"; 
 	}
 }
